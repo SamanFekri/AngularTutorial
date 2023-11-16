@@ -63,7 +63,7 @@ export class DetailsComponent {
       this.housingLocation = housingLocation;
     });
   }
-  
+
   submitApplication() {
     this.housingService.submitApplication(
       this.applyForm.value.firstName ?? '',
