@@ -4,8 +4,6 @@ import { Hero } from '../hero';
 
 @Component({
   selector: 'app-heroes',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
 })
